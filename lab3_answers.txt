@@ -1,0 +1,9 @@
+1. we can use os.environ to inspect all environment variables in Python
+
+2. 'QUERY_STRING'
+
+3. 'HTTP_USER_AGENT'
+
+4. The POSTed data comes to the CGI script by cgi.FieldStorage()
+
+5. 
