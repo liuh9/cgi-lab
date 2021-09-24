@@ -6,4 +6,12 @@
 
 4. The POSTed data comes to the CGI script by cgi.FieldStorage()
 
-5. 
+5. use "Set-Cookie:Key = value", for instance:
+   print("Set-Cookie:Username = {};".format(u_name))
+   print("Set-Cookie:Password = {};".format(p_word))
+
+6. 
+
+7. Data that stored locally in the client machine, that can help websites server identifies users.
+
+8. https://github.com/liuh9/cgi-lab
