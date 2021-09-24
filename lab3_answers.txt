@@ -10,7 +10,7 @@
    print("Set-Cookie:Username = {};".format(u_name))
    print("Set-Cookie:Password = {};".format(p_word))
 
-6. 
+6. Set-Cookie:Key = value; Get-Cookie
 
 7. Data that stored locally in the client machine, that can help websites server identifies users.
 
