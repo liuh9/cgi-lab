@@ -33,6 +33,9 @@ if u_name == username and p_word == password:
 	print("Set-Cookie: password={};".format(p_word))
 	print(secret_page(u_name, p_word))
 
+else:
+	print(after_login_incorrect())
+
 json_back = json.dumps(dict(os.environ), indent = 4)
 print(json_back)
 
